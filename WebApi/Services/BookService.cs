@@ -24,7 +24,7 @@ public class BookService
             PublishedDate = x.PublishedDate,
             Advance = x.Advance,
             PublisherId=x.Publisher.Id,
-            YtdSales=x.YtdSales,
+            YtdSales=x.YtdSales
         }).ToList();
     }
 
