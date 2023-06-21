@@ -22,7 +22,9 @@ public class BookService
             Type = x.Type,
             Price = x.Price,
             PublishedDate = x.PublishedDate,
-            Advance = x.Advance
+            Advance = x.Advance,
+            PublisherId=x.Publisher.Id,
+            YtdSales=x.YtdSales,
         }).ToList();
     }
 
